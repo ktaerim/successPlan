@@ -8,6 +8,7 @@ const app = express();
 const port = 3000;
 
 /* express 미들웨어 설정*/
+app.use(express.static("front"));
 
 // cors설정
 app.use(cors());
